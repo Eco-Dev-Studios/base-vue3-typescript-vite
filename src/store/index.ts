@@ -1,26 +1,24 @@
-import { createStore } from "vuex";
+import { defineStore } from "pinia";
 
-export type State = { counter: number };
-
-const state: State = { counter: 0 };
-
-export const store = createStore({
-  state,
-  mutations: {
-    increment(state, payload) {
-      state.counter++;
+export const useMainStore = defineStore({
+  id: "main",
+  state: () => ({
+    counter: 0,
+    name: "Cess",
+  }),
+  getters: {
+    doubleCount() {
+      return this.counter * 2;
+    },
+    // use getters in other getters
+    doubleCountPlusOne() {
+      return this.doubleCount * 2 + 1;
     },
   },
   actions: {
-    increment({ commit }) {
-      commit("increment");
+    reset() {
+      // `this` is the store instance
+      this.counter = 0;
     },
   },
-
-  getters: {
-    counter(state) {
-      return state.counter;
-    },
-  },
-  modules: {},
 });

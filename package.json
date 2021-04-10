@@ -9,6 +9,7 @@
     "analysis": "windicss-analysis"
   },
   "dependencies": {
+    "pinia": "^2.0.0-alpha.13",
     "vue": "^3.0.9",
     "vue-router": "^4.0.6",
     "vuex": "^4.0.0"

@@ -1,11 +1,11 @@
 <template>
   <div class="w-full h-screen relative">
-    <router-view />
-    <div id="nav">
-      <HelloWorld />
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+    <div id="nav" class="mx-auto max-w-xl ? text-center">
+      <router-link to="/" class="text-xl">Home</router-link>
+      |
+      <router-link to="/about" class="text-xl">About</router-link>
     </div>
+    <router-view />
   </div>
 </template>
 
