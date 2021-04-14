@@ -1,5 +1,5 @@
 <template>
-  <div class="center-x-y flex flex-col">
+  <div class="center-x-y flex flex-col ?">
     <button @click="main.counter++">Increment</button>
     <h1 class="text-center mt-4">{{ main.counter }}</h1>
   </div>

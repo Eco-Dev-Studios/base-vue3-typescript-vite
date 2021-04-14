@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-screen relative">
-    <div id="nav" class="mx-auto max-w-xl ? text-center">
+    <div id="nav" class="mx-auto max-w-xl text-center">
       <router-link to="/" class="text-xl">Home</router-link>
       |
       <router-link to="/about" class="text-xl">About</router-link>
