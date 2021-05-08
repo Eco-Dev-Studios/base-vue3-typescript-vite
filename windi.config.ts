@@ -3,6 +3,7 @@ import typography from "windicss/plugin/typography";
 import colors from "windicss/colors";
 
 export default defineConfig({
+  attributify: true,
   darkMode: "class",
   plugins: [typography],
   shortcuts: {

@@ -14,7 +14,7 @@ export default defineConfig({
     VitePWA(),
     WindiCSS({
       transformCSS: "pre",
-      preflight: false,
+      preflight: true,
     }),
   ],
   build: {},
