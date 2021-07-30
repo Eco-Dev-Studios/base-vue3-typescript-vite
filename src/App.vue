@@ -11,12 +11,11 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "App",
-  setup() {},
+<script setup lang="ts">
+import { useHead } from "@vueuse/head";
+useHead({
+  title: "Vitesse",
+  meta: [{ name: "description", content: "This is project base" }],
 });
 </script>
 

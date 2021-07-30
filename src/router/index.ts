@@ -1,3 +1,5 @@
+// vite-env.d.ts
+/// <reference types="vite-plugin-pages/client" />
 import { RouteRecordRaw, createRouter, createWebHistory } from "vue-router";
 import routes from "virtual:generated-pages"; // Routes generated automatically, system similar to nuxtjs
 

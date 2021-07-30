@@ -12,18 +12,10 @@
   </div>
 </template>
 
-<script>
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import { useWindowScroll } from "@vueuse/core";
-export default defineComponent({
-  setup() {
-    const { x, y } = useWindowScroll();
-    return {
-      x,
-      y,
-    };
-  },
-});
+
+const { x, y } = useWindowScroll();
 </script>
 
 <style></style>

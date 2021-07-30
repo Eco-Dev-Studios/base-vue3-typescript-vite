@@ -5,10 +5,9 @@ import colors from "windicss/colors";
 export default defineConfig({
   attributify: true,
   darkMode: "class",
-  plugins: [typography],
+  plugins: [typography()],
   shortcuts: {
-    btn:
-      "rounded border border-gray-300 text-gray-600 px-4 py-2 m-2 inline-block hover:shadow",
+    btn: "rounded border border-gray-300 text-gray-600 px-4 py-2 m-2 inline-block hover:shadow",
   },
   theme: {
     extend: {
