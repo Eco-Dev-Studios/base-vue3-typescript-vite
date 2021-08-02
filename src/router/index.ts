@@ -9,12 +9,3 @@ const router = createRouter({
 });
 
 export default router;
-
-//Examples
-
-// import type { RouteRecordRaw } from "vue-router";
-
-// const router = createRouter({
-//   history: createWebHashHistory(),
-//   routes: basicRoutes as RouteRecordRaw[],
-// });

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen relative">
+  <div class="h-screen w-full relative">
     <div id="nav" class="mx-auto max-w-xl text-center">
       <router-link to="/" class="text-xl">Home</router-link>
       |
@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import { useHead } from "@vueuse/head";
 useHead({
-  title: "Vitesse",
+  title: "Base Projecct",
   meta: [{ name: "description", content: "This is project base" }],
 });
 </script>
