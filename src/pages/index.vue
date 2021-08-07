@@ -4,7 +4,7 @@ const double = computed(() => counter.value * 2);
 </script>
 
 <template>
-  <div class="? flex flex-col center-x-y">
+  <div class="flex flex-col center-x-y">
     <div class="relative">
       <!-- From assets
       <img src="../assets/img/img-1.jpg" alt="" /> -->

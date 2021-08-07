@@ -11,6 +11,7 @@ export default defineConfig({
     Vue(),
     Pages(),
     ViteComponents({
+      directoryAsNamespace: true,
       customComponentResolvers: [HeadlessUiResolver()],
     }),
     VitePWA(),
